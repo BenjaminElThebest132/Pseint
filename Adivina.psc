@@ -5,7 +5,7 @@ Algoritmo Adivina
     
     Escribir "Adivine el numero (de 1 a 12):";
     Leer num3;
-    Mientras num2<>num3 Y num1>1 Hacer;
+    Mientras num2<>num3 Y num1>1 Hacer
         Si num2>num3 Entonces
             Escribir "Muy bajo";
         Sino 
@@ -17,7 +17,7 @@ Algoritmo Adivina
     FinMientras
     
     Si num2=num3 Entonces
-        Escribir "¡Exacto! Usted adivino :D";
+        Escribir "Â¡Exacto! Usted adivino :D";
     Sino
         Escribir "El numero era: ",num2;
     FinSi
